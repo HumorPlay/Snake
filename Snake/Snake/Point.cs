@@ -13,13 +13,11 @@ namespace Snake
         public int y { get; set; }
         public char sym { get; set; }
 
-
-
-
-
-
-
-
+        public virtual void Draw()
+        {
+            Console.SetCursorPosition(x, y);
+            Console.WriteLine(sym);
+        }
     }
 
 
