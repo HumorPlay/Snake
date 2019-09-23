@@ -22,6 +22,5 @@ namespace Snake
                 pList.Add(a);
             }
         }
-
     }
 }
